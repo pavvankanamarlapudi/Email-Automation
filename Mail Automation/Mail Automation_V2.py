@@ -23,7 +23,7 @@ global port
 port = 465 
 username="pavvankanamarlapudi@gmail.com"
 
-password  = "XXXXXXXXXX"
+password  = "evzgixdtixdceiif"
 fromaddr = username
 
 Body =   """
