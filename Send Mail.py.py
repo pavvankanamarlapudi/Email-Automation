@@ -27,7 +27,7 @@ password  = "evzgixdtixdceiif"
 fromaddr = username
 
 Body =   """
-        Dear Hiring Manager,<p style="text-indent: 40px">I’m seeking for the postion of <b><font color="#5727A1">Data Scientist/Data Analyst</b></font>  at your Organization. Currently, I have been working as <b><font color="#5727A1">Jr.Data Scientist</font></b> at <b>GSPANN Technologies</b> having <b>2 Years</b> of experience. 
+        Dear Hiring Manager,<p style="text-indent: 40px">I’m seeking for the postion of <b><font color="#5727A1">Data Scientist/Data Analyst</b></font>  at your Organization. Currently, I have been working as <b><font color="#5727A1">Jr.Data Scientist</font></b> at <b>GSPANN Technologies</b> having about <b>3.5 Years</b> of experience. 
         PFA for updated <b>Resume</b> and <b>Cover letter</b> for your own reference. </p>I am looking forward to hear more about work role in the form of a formal interview. Please also feel free to call me via the Phone number or Email address listed on my attached resume.
 
         """
