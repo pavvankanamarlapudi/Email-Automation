@@ -27,8 +27,8 @@ password  = "evzgixdtixdceiif"
 fromaddr = username
 
 Body =   """
-        Dear Hiring Manager,<p style="text-indent: 40px">I’m seeking for the postion of <b><font color="#5727A1">Data Scientist/Data Analyst</b></font>  at your Organization. Currently, I have been working as <b><font color="#5727A1">Jr.Data Scientist</font></b> at <b>GSPANN Technologies</b> having about <b>3.5 Years</b> of experience. 
-        PFA for updated <b>Resume</b> and <b>Cover letter</b> for your own reference. </p>I am looking forward to hear more about work role in the form of a formal interview. Please also feel free to call me via the Phone number or Email address listed on my attached resume.
+        Dear Hiring Manager,<p style="text-indent: 40px">I’m seeking for the postion of <b><font color="#5727A1">Data Scientist/Data Analyst</b></font>  at your Organization. Currently, I have been working as <b><font color="#5727A1">Data Scientist</font></b> at <b>GSPANN Technologies</b> having about <b>4.5 Years</b> of experience. 
+        PFA for updated <b>Resume</b> and <b>Cover letter</b> for your own reference. </p>I am looking forward to hear more about work role in the form of a formal interview. Please also feel free to reach me via the Mobile or Email address mentioned on my attached resume.
 
         """
 
@@ -49,7 +49,7 @@ def sendemail():
     Mail_Body=MIMEText(Body, 'html')
     msg.attach(Mail_Body)
     
-    if not receiver.get().lower() in list(recruiter_list.Email):
+    if True:#not receiver.get().lower() in list(recruiter_list.Email):
         
         for file in filenames:
             part = MIMEBase('application', 'octet-stream')
